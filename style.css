@@ -1,0 +1,88 @@
+header{
+    background-color: lightblue;
+    height: 75px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: cursive;  
+}
+nav{
+    position: sticky;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    top:0px;
+}
+nav a{
+    font-size: large;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo img{
+    clip-path: circle(40% at 50% 50%);
+}
+.music1, .music2{
+    display: flex;
+    justify-content: space-evenly; 
+}
+.music1 iframe, .music2 iframe{
+    border-radius: 30px;
+    border: 1px solid black;
+    margin: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.founder{
+    display: flex;
+    justify-content: center;
+}
+.founder img{
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;
+    filter: drop-shadow(15px 15px 10px black); 
+}
+.link{
+    display: flex;
+    justify-content: center;
+}
+.link a{
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: bisque;
+    font-style: italic;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.link a img{
+    border-radius: 50px;
+}
+.link a:hover{
+    background-color: aqua;
+}
+h1{
+    text-align: center; 
+    font-family: cursive;   
+}
+footer{
+    background-color: black;
+    padding: 10px;
+    position: sticky;
+    
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    
+}

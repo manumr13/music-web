@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            justify-content: center;
+        }
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; 
+        }
+        form{
+            padding: 40px;
+            border-radius: 10px;
+            border: 1px solid black;
+            background-color: lightblue; 
+        }
+        .form-container form input{
+            display: grid;
+        }
+        input[type="email"],textarea,input[type="number"]{
+            width: 100%;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 10px 10px 5px lightslategray;
+        }
+        input[type="submit"]{
+            margin: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        input[type="submit"]:hover{
+            background-color: lightsalmon;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="">
+            <label for="emal">Email:* </label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="phone">Phone:* </label>
+            <input type="number" name="number" id="phone" required>
+            <br>
+            <label for="about">About: </label>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
